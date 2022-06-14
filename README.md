@@ -132,8 +132,7 @@ not be persisted.
 filled out ReportingStructure for the specified employeeId. 
 - [x] Unit tested the new REST endpoint in ReportingStructureServiceImplTest.
 - [x] Sample Response:
-
-
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/14349274/173548108-548ae405-c9d1-4cfa-ab02-919c7dcf72b6.png">
 
 
 ### Task 2
@@ -148,6 +147,8 @@ Compensation from the persistence layer.
 persistence layer.
 - [x] Unit tested the new REST endpoints in CompensationServiceImplTest.
 - [x] Sample Response:
+<img width="694" alt="image" src="https://user-images.githubusercontent.com/14349274/173548163-cbfe05db-53af-47da-b1ca-5b7d65331f5a.png">
+
 
 
 ## Delivery
