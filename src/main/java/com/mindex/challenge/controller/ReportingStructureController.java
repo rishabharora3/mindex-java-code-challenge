@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ *  This is the reporting structure controller.
+ */
 @RestController
 public class ReportingStructureController {
 
@@ -17,6 +20,11 @@ public class ReportingStructureController {
     @Autowired
     private ReportingStructureService reportingStructureService;
 
+    /**
+     * This method returns the reporting structure for the given employee id.
+     * @param id The employee id
+     * @return The reporting structure
+     */
     @GetMapping("/reportStructure/{id}")
     public ReportingStructure read(@PathVariable String id) {
         LOG.debug("Received employee report request for id [{}]", id);

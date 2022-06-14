@@ -1,5 +1,8 @@
 package com.mindex.challenge.data;
 
+/**
+ * This class is used to represent the structure of the reporting hierarchy.
+ */
 public class ReportingStructure {
     private Employee employee;
     private int numberOfReports;

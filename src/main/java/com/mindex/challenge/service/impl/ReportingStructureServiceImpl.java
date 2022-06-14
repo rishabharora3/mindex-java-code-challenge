@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Stack;
 
+/**
+ * Returns employee details with reporting employees count for a given employeeID
+ */
 @Service
 public class ReportingStructureServiceImpl implements ReportingStructureService {
 
